@@ -1,1 +1,14 @@
 //Quiz.txt
+
+Levels of Testing
+
+1.Unit Testing- Per component test
+2.Integration Test- Test components if integrated properly
+3.System Test- System requirement compliance
+4.Acceptance- User implemented test
+5.False
+6.JUnit Jupiter
+7.Assertions.assertEquals- make sure/ prompts the user that the inputs are the same with the expected input based on the "Kick" procedure
+8.Assertions.assertFalse- boolean condtion/ expression that evaluates if input is False
+9.Assertions.assertTrue- boolean condtion/ expression that evaluates if input is True
+10.Assertions.assertNotEquals- make sure/ prompts the user that the inputs are not the same with the expected input based on the "Kick" procedure
