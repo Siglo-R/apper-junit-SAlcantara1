@@ -12,12 +12,12 @@ public class AccountRepository {
         Account account = new Account(id, name, initialBalance);
 
         accounts.add(account);
-
         return id;
     }
 
     public Account getAccount(String id) {
 
+        //even if you change syntax or refactor the code, confident ka parin na same yung output mo dahil sa testing
         for(Account account : accounts){
             if (account.id().equals(id)){
                 return account;
@@ -38,4 +38,10 @@ public class AccountRepository {
     public Integer getNumberOfAccounts() {
         return accounts.size();
     }
+
+    public boolean noRegisteredAccount(){
+        return accounts.isEmpty();
+    }
+
 }
+

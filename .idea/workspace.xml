@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d2a73ee-bb2d-43e1-8adc-92e1a7479104" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BalanceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AccountRepositoryTest.java" afterDir="false" />
+    <list default="true" id="0d2a73ee-bb2d-43e1-8adc-92e1a7479104" name="Changes" comment="added day 1 unitTesting">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BalanceServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BalanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BalanceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AccountRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AccountRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +21,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="051fdd73-540c-410b-9b65-178f4c359dcd" />
+        <option name="url" value="https://github.com/Siglo-R/apper-junit-SAlcantara1.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="2Qu3PhzTTlbFvnWuYhqcl1tzxvS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -39,14 +48,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -54,6 +63,95 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AccountRepositoryTest">
+    <configuration name="AccountRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apper-junit-SAlcantara1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AccountRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountRepositoryTest.successfulAccountCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apper-junit-SAlcantara1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AccountRepositoryTest" />
+      <option name="METHOD_NAME" value="successfulAccountCreation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalanceServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apper-junit-SAlcantara1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.BalanceServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalanceServiceTest.decreaseBalanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apper-junit-SAlcantara1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.BalanceServiceTest" />
+      <option name="METHOD_NAME" value="decreaseBalanceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalanceServiceTest.transferFromNonExistingAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apper-junit-SAlcantara1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.BalanceServiceTest" />
+      <option name="METHOD_NAME" value="transferFromNonExistingAccountTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountRepositoryTest" />
+        <item itemvalue="JUnit.BalanceServiceTest" />
+        <item itemvalue="JUnit.BalanceServiceTest.decreaseBalanceTest" />
+        <item itemvalue="JUnit.BalanceServiceTest.transferFromNonExistingAccountTest" />
+        <item itemvalue="JUnit.AccountRepositoryTest.successfulAccountCreation" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,6 +162,47 @@
       <option name="presentableId" value="Default" />
       <updated>1686189618716</updated>
     </task>
+    <task id="LOCAL-00001" summary="added day 1 unitTesting">
+      <created>1686195705514</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686195705514</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added day 1 unitTesting" />
+    <option name="LAST_COMMIT_MESSAGE" value="added day 1 unitTesting" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/apper_junit_SAlcantara1$BalanceServiceTest.ic" NAME="BalanceServiceTest Coverage Results" MODIFIED="1686493185724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/apper_junit_SAlcantara1$AccountRepositoryTest_debitTest.ic" NAME="AccountRepositoryTest.debitTest Coverage Results" MODIFIED="1686481860594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/apper_junit_SAlcantara1$AccountRepositoryTest_successfulDelete.ic" NAME="AccountRepositoryTest.successfulDelete Coverage Results" MODIFIED="1686480744613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/apper_junit_SAlcantara1$AccountRepositoryTest.ic" NAME="AccountRepositoryTest Coverage Results" MODIFIED="1686495510490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/apper_junit_SAlcantara1$AccountRepositoryTest_deleteNonExistingAccountTest.ic" NAME="AccountRepositoryTest.deleteNonExistingAccountTest Coverage Results" MODIFIED="1686481764923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/apper_junit_SAlcantara1$BalanceServiceTest_transferFromNonExistingAccountTest.ic" NAME="BalanceServiceTest.transferFromNonExistingAccountTest Coverage Results" MODIFIED="1686490863852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/apper_junit_SAlcantara1$AccountRepositoryTest_successfulAccountCreation.ic" NAME="AccountRepositoryTest.successfulAccountCreation Coverage Results" MODIFIED="1686488918479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/apper_junit_SAlcantara1$AccountRepositoryTest_getBalanceNonExistentAccountTest.ic" NAME="AccountRepositoryTest.getBalanceNonExistentAccountTest Coverage Results" MODIFIED="1686461727820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/apper_junit_SAlcantara1$AccountRepositoryTest_creditTest.ic" NAME="AccountRepositoryTest.creditTest Coverage Results" MODIFIED="1686461624093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>
