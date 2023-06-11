@@ -47,5 +47,11 @@ class AccountRepositoryTest {
         Assertions.assertEquals(3, repository.getNumberOfAccounts());
     }
 
+    @Test
+    void noRegisteredAccountTest(){
+        AccountRepository repository = new AccountRepository();
+        Assertions.assertTrue(repository.noRegisteredAccount());
+    }
+
 }
 

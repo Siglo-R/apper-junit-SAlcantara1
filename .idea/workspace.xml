@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d2a73ee-bb2d-43e1-8adc-92e1a7479104" name="Changes" comment="added day 1 unitTesting">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BalanceServiceTest.java" afterDir="false" />
+    <list default="true" id="0d2a73ee-bb2d-43e1-8adc-92e1a7479104" name="Changes" comment="updated AccountRepositoryTest.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BalanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BalanceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AccountRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AccountRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +24,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -161,12 +156,27 @@
       <option name="project" value="LOCAL" />
       <updated>1686195705514</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated AccountRepositoryTest.java">
+      <created>1686495795442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686495795442</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated AccountRepositoryTest.java">
+      <created>1686495974621</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686495974621</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added day 1 unitTesting" />
-    <option name="LAST_COMMIT_MESSAGE" value="added day 1 unitTesting" />
+    <MESSAGE value="updated AccountRepositoryTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated AccountRepositoryTest.java" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/apper_junit_SAlcantara1$BalanceServiceTest.ic" NAME="BalanceServiceTest Coverage Results" MODIFIED="1686493185724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -178,9 +188,10 @@
     <SUITE FILE_PATH="coverage/apper_junit_SAlcantara1$AccountRepositoryTest_successfulDelete.ic" NAME="AccountRepositoryTest.successfulDelete Coverage Results" MODIFIED="1686480744613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/apper_junit_SAlcantara1$AccountRepositoryTest.ic" NAME="AccountRepositoryTest Coverage Results" MODIFIED="1686495510490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/apper_junit_SAlcantara1$AccountRepositoryTest.ic" NAME="AccountRepositoryTest Coverage Results" MODIFIED="1686495770706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/apper_junit_SAlcantara1$example_in_apper_junit_SAlcantara1.ic" NAME="example in apper-junit-SAlcantara1 Coverage Results" MODIFIED="1686496384777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/apper_junit_SAlcantara1$AccountRepositoryTest_deleteNonExistingAccountTest.ic" NAME="AccountRepositoryTest.deleteNonExistingAccountTest Coverage Results" MODIFIED="1686481764923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
