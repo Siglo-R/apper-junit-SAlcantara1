@@ -64,7 +64,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountRepositoryTest">
+  <component name="RunManager" selected="JUnit.example in apper-junit-SAlcantara1">
     <configuration name="AccountRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="apper-junit-SAlcantara1" />
       <extension name="coverage">
@@ -76,22 +76,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.AccountRepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountRepositoryTest.successfulAccountCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="apper-junit-SAlcantara1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AccountRepositoryTest" />
-      <option name="METHOD_NAME" value="successfulAccountCreation" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,13 +127,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="example in apper-junit-SAlcantara1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apper-junit-SAlcantara1" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/org/example" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.example in apper-junit-SAlcantara1" />
         <item itemvalue="JUnit.AccountRepositoryTest" />
         <item itemvalue="JUnit.BalanceServiceTest" />
         <item itemvalue="JUnit.BalanceServiceTest.decreaseBalanceTest" />
         <item itemvalue="JUnit.BalanceServiceTest.transferFromNonExistingAccountTest" />
-        <item itemvalue="JUnit.AccountRepositoryTest.successfulAccountCreation" />
       </list>
     </recent_temporary>
   </component>
